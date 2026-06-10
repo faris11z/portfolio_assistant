@@ -1,0 +1,41 @@
+Sulaiman Faris is a Master's student in Computer Science (International) at the University of Rostock, Germany, where he started in April 2025 with a focus on Information Systems. His academic coursework covers Data Warehousing and Business Intelligence, Big Data Processing, Foundations of Machine Learning, and Probability & Statistics — areas that reflect his deep love for mathematics and the logic behind intelligent systems.
+
+He completed his Bachelor's in Computer Science and Engineering at Anna University, Chennai, India (May 2020 – June 2024) with a strong CGPA of 8.92/10, with focus areas in Theoretical Computer Science, Mathematics, Networking, and Database Systems.
+
+Currently, Sulaiman works as a HiWi (student research assistant) at the Medical Datenintegrationszentrum (DIZ) at the University of Rostock, where he is working on FHIR data validation for research purposes. He is also actively developing an LLM-based system for querying Minerva disease maps — a project that sits at the intersection of AI and biomedical research. Additionally, he informally coordinates student activities as an unofficial coordinating head at the university.
+
+He is currently looking for a Working Student (Werkstudent) position at an industrial company, preferably in Rostock or Hamburg, where he can apply his skills in AI, machine learning, and data analysis in a practical, real-world setting.
+
+--- TECHNICAL SKILLS ---
+Programming: Python (primary), SQL, HTML/CSS, JavaScript; basics in C/C++ and Java
+Data & Analytics: Pandas, NumPy, Matplotlib, Seaborn, Excel, Power BI, Git, VS Code
+AI & Machine Learning: Generative AI (LLMs), ML workflows, Deep Learning fundamentals, TensorFlow, PyTorch, scikit-learn, model evaluation
+Other: YOLO, OpenCV, FHIR data standards (currently working with)
+
+--- ACADEMIC & PERSONAL PROJECTS ---
+1. Asthma Risk Prediction (Python, ML, Pandas, NumPy): Built an ML model to predict geographical asthma risk factors. Performed feature engineering on large datasets and generated actionable environmental risk insights for users.
+
+2. Real-Time Object & Color Detection (Python, YOLO, OpenCV): Developed a real-time object detection system using YOLO, added a color-classification module to assist individuals with color blindness, and optimized video stream processing for accuracy and speed.
+
+3. Data Cleaning & EDA of 2022 Global Layoffs (SQL): SQL-based project covering 1,800+ companies across 60 countries. Cleaned and standardized data, removed duplicates, handled nulls, and explored trends using aggregations and window functions.
+
+--- CERTIFICATIONS ---
+- Career Essentials in Data Analysis (Microsoft & LinkedIn)
+- SQL for Data Analysis (LinkedIn)
+- Learning Excel for Data Analysis (LinkedIn)
+- Become a Data Scientist (LinkedIn)
+- Statistical Analysis Foundations (LinkedIn)
+
+--- JOB SIMULATIONS ---
+- BCG Data for Decision Makers (Forage, Jan 2026): Advised on multi-channel ad campaign performance, analyzed customer conversion trends, and delivered data-backed recommendations.
+- Vista Equity Partners AI in Action (Forage, Mar 2026): Applied prompt engineering and GenAI workflow automation; synthesized NPS feedback into executive insights using Vista's four-part prompt framework; reduced error rates and improved stakeholder usability.
+
+--- LANGUAGES ---
+English (C1), German (B1–B2), Tamil (Native)
+
+--- INTERESTS ---
+Generative AI, Machine Learning, Data Science & Analysis, Data-driven problem solving, Football (FC Barcelona supporter), South Indian cuisine
+
+--- CONTACT ---
+Email: sulaiman11faris@gmail.com
+Location: Available to work in Rostock and Hamburg, Germany
