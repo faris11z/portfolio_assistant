@@ -6,6 +6,10 @@ Currently, Sulaiman works as a HiWi (student research assistant) at the Medical 
 
 He is currently looking for a Working Student (Werkstudent) position at an industrial company, preferably in Rostock or Hamburg, where he can apply his skills in AI, machine learning, and data analysis in a practical, real-world setting.
 
+He is looking for Opportunities in Data related fields like Data Science, AI, Machine Learning and is deeply interested in LLMs and GenAI. He is open to explore opporutnities in other  fields too.
+
+Relocation to other city in Germany is possible for an attractive offer.
+
 --- TECHNICAL SKILLS ---
 Programming: Python (primary), SQL, HTML/CSS, JavaScript; basics in C/C++ and Java
 Data & Analytics: Pandas, NumPy, Matplotlib, Seaborn, Excel, Power BI, Git, VS Code
@@ -17,7 +21,12 @@ Other: YOLO, OpenCV, FHIR data standards (currently working with)
 
 2. Real-Time Object & Color Detection (Python, YOLO, OpenCV): Developed a real-time object detection system using YOLO, added a color-classification module to assist individuals with color blindness, and optimized video stream processing for accuracy and speed.
 
-3. Data Cleaning & EDA of 2022 Global Layoffs (SQL): SQL-based project covering 1,800+ companies across 60 countries. Cleaned and standardized data, removed duplicates, handled nulls, and explored trends using aggregations and window functions.
+3.AI PERSONAL ASSISTANT (PORTFOLIO PROJECT) Tools: Python, OpenAI API, Gradio, Hugging Face, Git. Built an agentic AI assistant using GPT-4o-mini with function calling to represent 
+  my professional profile on the web. Implemented tool-use architecture enabling the assistant to autonomously collect 
+  visitor contact details and log unanswered questions. Deployed end-to-end on Hugging Face Spaces with a custom real-time notification pipeline
+
+4. Data Cleaning & EDA of 2022 Global Layoffs (SQL): SQL-based project covering 1,800+ companies across 60 countries. Cleaned and standardized data, removed duplicates, handled nulls, and explored trends using aggregations and window functions.
+
 
 --- CERTIFICATIONS ---
 - Career Essentials in Data Analysis (Microsoft & LinkedIn)
