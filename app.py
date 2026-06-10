@@ -10,22 +10,29 @@ import gradio as gr
 load_dotenv(override=True)
 
 def push(text):
-    requests.post(
-        "https://api.pushover.net/1/messages.json",
-        data={
-            "token": os.getenv("PUSHOVER_TOKEN"),
-            "user": os.getenv("PUSHOVER_USER"),
-            "message": text,
-        }
-    )
+    token = os.getenv("TELEGRAM_BOT_TOKEN")
+    chat_id = os.getenv("TELEGRAM_CHAT_ID")
+    if token and chat_id:
+        for attempt in range(3):
+            try:
+                requests.post(
+                    f"https://api.telegram.org/bot{token}/sendMessage",
+                    json={"chat_id": chat_id, "text": text},
+                    timeout=10,
+                )
+                break
+            except Exception as e:
+                print(f"Telegram attempt {attempt+1} failed: {e}", flush=True)
+    else:
+        print(f"[Notification - Telegram not configured]: {text}", flush=True)
 
 
 def record_user_details(email, name="Name not provided", notes="not provided"):
-    push(f"Recording {name} with email {email} and notes {notes}")
+    push(f"🙋 New contact!\nName: {name}\nEmail: {email}\nNotes: {notes}")
     return {"recorded": "ok"}
 
 def record_unknown_question(question):
-    push(f"Recording {question}")
+    push(f"❓ Unanswered question:\n{question}")
     return {"recorded": "ok"}
 
 record_user_details_json = {
@@ -130,5 +137,8 @@ If the user is engaging in discussion, try to steer them towards getting in touc
 
 if __name__ == "__main__":
     me = Me()
-    gr.ChatInterface(me.chat, type="messages").launch()
-    
+    gr.ChatInterface(
+    me.chat,
+    title="Chat with Sulaiman Faris",
+    description="Ask me anything about my background, skills, projects, or availability. I'm actively looking for a Werkstudent role in Rostock or Hamburg!",
+).launch(server_name="127.0.0.1", server_port=7860)
